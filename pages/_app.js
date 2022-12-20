@@ -1,5 +1,14 @@
-import '../styles/globals.css'
+import "./style.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import React from "react";
+import Head from 'next/head';
+
+export default function MyApp({
+  Component: Component,
+  pageProps: pageProps
+}) {
+  React.useEffect(() => {
+    import("@lottiefiles/lottie-player")
+  });
+  return <Component {...pageProps} />;
 }
