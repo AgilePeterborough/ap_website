@@ -9,15 +9,14 @@ const NavigationLinks = (props) => {
         <span className="navbar-link">
         <a href={props.url }>{props.text}</a>
         </span>
-        <span className="navigation-links-text1 navbar-link">
-          <a href={props.url1 }>{props.text1}</a>
-        </span>
         <span className="navigation-links-text2 navbar-link">
         <a href={props.url2 }>{props.text2}</a>
         </span>
-        <span className="navigation-links-text3 navbar-link">
-        <a href={props.url3 }>{props.text3}</a>
+        <span className="navigation-links-text1 navbar-link">
+          <a href={props.url1 }>{props.text1}</a>
         </span>
+        
+        
       </nav>
       <style jsx>
         {`
@@ -64,8 +63,6 @@ const NavigationLinks = (props) => {
 NavigationLinks.defaultProps = {
   text2: 'Meetups',
   url2:'http://www.meetup.com/agile-peterborough',
-  text3: 'Resources',
-  url3:'/resources',
   rootClassName: '',
   text: 'Home',
   url:'/',

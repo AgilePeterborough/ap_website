@@ -31,13 +31,7 @@ const Home = (props) => {
                   internal="false"
                 ></FeatureCard>
                 <FeatureCard
-                  text="Code clubs, workshops, presentations and talks in schools and Universities"
-                  text1="See how &gt;"
-                  heading="Supporting Education"
-                  image_src="/playground_assets/mortarboard.png"
-                ></FeatureCard>
-                <FeatureCard
-                  text="We run learning hand-on learning workshops, coding as you go."
+                  text="We run learning hand-on learning workshops, coding in support of autodidacts."
                   text1="Learn more &gt;"
                   heading="Hands on"
                   image_src="/playground_assets/programming.png"
@@ -48,6 +42,13 @@ const Home = (props) => {
                   heading="Peer led"
                   image_src="/playground_assets/online-community.png"
                 ></FeatureCard>
+                <FeatureCard
+                  text="Code clubs, workshops, presentations and talks in schools and Universities"
+                  text1="See how &gt;"
+                  heading="Supporting Education"
+                  url="/education"
+                  image_src="/playground_assets/mortarboard.png"
+                ></FeatureCard>
               </div>
             </div>
           </div>
@@ -55,9 +56,9 @@ const Home = (props) => {
           <Twopanel
              text="First run in 2013 Agile Peterborough is a community focused
              on building, accelerating and amplifying  the growth of
-             technology capability in and around the city "
+             technology capability in and around the city. We run learning events and support the development of engineers in the local area."
              title1="Peterborough&apos;s learning technology"
-             title2="Community"
+             title2="&nbsp;Community"
              image_src="/playground_assets/herologo-1200w.png"
              imageRight="true"
           ></Twopanel>
@@ -70,7 +71,7 @@ const Home = (props) => {
              across the region. We are proud to count some of the talented youngsters of
              our early schools engagement as now adult engineers and
              community contributors at Agile Peterborough"
-             title1="Supporting&nbsp;"
+             title1="Supporting"
              title2="Education"
              image_src="/playground_assets/_126734889_tv078804345-1200w.jpg"
           ></Twopanel>
@@ -117,19 +118,21 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-cards-container1">
-                <GridCard image_src="/playground_assets/vector%203-200h.png"></GridCard>
+                <GridCard image_src="/playground_assets/goal.png"></GridCard>
                 <GridCard
                   text="Follow your friends"
-                  image_src="/playground_assets/vector%203%20%5B1%5D-200h.png"
+                  text1="Make new friends or meet old ones our events are a great place to create opportunity for debate"
+                  image_src="/playground_assets/friends.png"
                 ></GridCard>
                 <GridCard
-                  text="Declutter your life inbox"
-                  text1="Pick up new skills, get feedback on your internal processes and improve"
-                  image_src="/playground_assets/vector%203%20%5B2%5D-200h.png"
+                  text="Get independant feedback"
+                  text1="Pick up new skills, get feedback on your internal processes and improve in your career and at work"
+                  image_src="/playground_assets/good-review.png"
                 ></GridCard>
                 <GridCard
-                  text="Less apps, more space"
-                  image_src="/playground_assets/vector%203%20%5B3%5D-200h.png"
+                  text="Grow and learn"
+                  text1="Learn and discover new ideas, technology and concepts, share your thoughts and questions and uncover new knowledge"
+                  image_src="/playground_assets/knowledge.png"
                 ></GridCard>
               </div>
             </div>
@@ -333,6 +336,7 @@ const Home = (props) => {
             .home-cards-container {
               flex-wrap: wrap;
               justify-content: space-between;
+              display: grid;
             }
             
             
@@ -382,6 +386,7 @@ const Home = (props) => {
             }
             .home-cards-container {
               justify-content: center;
+              display: grid;
             }
             
             

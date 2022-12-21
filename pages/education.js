@@ -5,6 +5,7 @@ import Navbar from '../components/navbar'
 import FeatureCard from '../components/feature-card'
 import GridCard from '../components/grid-card'
 import Footer from '../components/footer'
+import Hero from '../components/hero'
 import Twopanel from '../components/two-panel-container'
 const Home = (props) => {
   return (
@@ -16,22 +17,55 @@ const Home = (props) => {
         </Head>
         <Navbar></Navbar>
         <main className="home-main">
-       
+        <div className="home-cards-container">
+                <FeatureCard 
+                  heading="Code Clubs"
+                  text="In various schools throughout Peterborough our members have run or supported code clubs "
+                  image_src="/playground_assets/codeclub.png"
+                  url="https://codeclub.org/en/volunteer"
+                  internal="false"
+                ></FeatureCard>
+                <FeatureCard
+                  text="Our members visit schools to give engaging talks to students about working in tech."
+                  text1=""
+                  heading="Intro talks"
+                  url="/education"
+                  image_src="/playground_assets/female.png"
+                ></FeatureCard>
+                <FeatureCard
+                  text="We help to organise coding session between employers and students."
+                  text1=""
+                  heading="Code Reviews"
+                  image_src="/playground_assets/coworkers.png"
+                ></FeatureCard>
+                <FeatureCard
+                  text="We've helped to organise and match placements for passionate students with local businesses "
+                  text1=""
+                  heading="Industrial Placements"
+                  image_src="/playground_assets/employee.png"
+                ></FeatureCard>
+              </div>
           <div className="home-section-two section-container">
           <Twopanel
-             text="First run in 2013 Agile Peterborough is a community focused
-             on building, accelerating and amplifying  the growth of
-             technology capability in and around the city. Run by volunteers the group operates on a belief that we can all improve by sharing, discussing and learning together.  "
-             title1="History"
+             text="For over 10 years members of our community and local business have maintained a steady flow of code clubs in primary schools 
+             across the city. Engineers "
+             title1="Code Clubs"
+             title2=""
              image_src="/playground_assets/herologo-1200w.png"
              imageRight="true"
           ></Twopanel>
           <Twopanel
-             text="We know that technology moves pretty fast, its tough to keep up. Through engaging across generations we hope to give support to educators and students to help turn magic into know-how."
-             text2="We have been aorund long enough to know that small amounts of well executed, high quality professional enagement can really accelerate autodidactic children. To that aim we have helped and continue to to find and support engineers interested in running code clubs, hackathons, open days and lecutres"
-             title1="Engaging with&nbsp;"
-             title2="Community"
-             image_src="/playground_assets/clarkeQuote.jpeg"
+             text="We have over 10 years experience supporting schools and
+             universities, through talks, demonstrations, workshops, 
+             events and placements. Our members have run code clubs in primary
+             schools, pairing sessions with under-graduates, helped organise hackathons, interviews and open days and we
+             continue to work closely with academic organisations
+             across the region. We are proud to count some of the talented youngsters of
+             our early schools engagement as now adult engineers and
+             community contributors at Agile Peterborough"
+             title1="Supporting&nbsp;"
+             title2="Education"
+             image_src="/playground_assets/_126734889_tv078804345-1200w.jpg"
           ></Twopanel>
           <Twopanel
              text="Agile on Tap is a event run from the back room of the
@@ -41,13 +75,24 @@ const Home = (props) => {
              &apos;how-tos&apos; and case studies to Product Strategy and
              Team leadership with formats varying from talks to open
              discussions and fishbowl discussions."
-             text2="Traditionally fueled by talks from local businesses and members we have also enjoy hearing from exceptional external speakers. Over the years we have been lucky to hear from hundreds of amazing speakers including internattionally renkonwed Troy Hunt, James Lewis, George Berowski and Marcin Floryn. If you are interested in sharing your ideas for feedback please do let us know. "
              title1="Agile-on-"
              title2="Tap"
              imageRight="true"
              image_src="/playground_assets/highres_226269472-1200w.jpeg"
           ></Twopanel>
-          
+           <Twopanel
+             text="We have over 10 years experience supporting schools and
+             universities, through talks, demonstrations, workshops, 
+             events and placements. Our members have run code clubs in primary
+             schools, pairing sessions with under-graduates, helped organise hackathons, interviews and open days and we
+             continue to work closely with academic organisations
+             across the region. We are proud to count some of the talented youngsters of
+             our early schools engagement as now adult engineers and
+             community contributors at Agile Peterborough"
+             title1="Supporting&nbsp;"
+             title2="Education"
+             image_src="/playground_assets/_126734889_tv078804345-1200w.jpg"
+          ></Twopanel>
 
 
             
@@ -76,24 +121,7 @@ const Home = (props) => {
                   Please register on meetup to keep posted on upcoming events
                 </span>
               </div>
-              <div className="home-cards-container1">
-                <GridCard image_src="/playground_assets/goal.png"></GridCard>
-                <GridCard
-                  text="Follow your friends"
-                  text1="Make new friends or meet old ones our events are a great place to create opportunity for debate"
-                  image_src="/playground_assets/friends.png"
-                ></GridCard>
-                <GridCard
-                  text="Get independant feedback"
-                  text1="Pick up new skills, get feedback on your internal processes and improve in your career and at work"
-                  image_src="/playground_assets/good-review.png"
-                ></GridCard>
-                <GridCard
-                  text="Grow and learn"
-                  text1="Learn and discover new ideas, technology and concepts, share your thoughts and questions and uncover new knowledge"
-                  image_src="/playground_assets/knowledge.png"
-                ></GridCard>
-              </div>
+              
             </div>
           </div>
         </main>

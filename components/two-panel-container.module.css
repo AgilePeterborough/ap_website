@@ -8,7 +8,7 @@
     .twopanel-content-container1 {
       flex: 1;
       display: flex;
-      max-width: 446px;
+      
       align-items: flex-start;
       flex-direction: column;
       
@@ -18,9 +18,8 @@
         display: flex;
         position: relative;
         max-width: var(--dl-size-size-maxwidth);
-        align-items: center;
-        padding-left: var(--dl-space-space-oneandhalfunits);
-        padding-right: var(--dl-space-space-oneandhalfunits);
+        
+        
       }
       .Content-Light {
         font-size: 16px;
@@ -82,6 +81,7 @@
       width: 566px;
       object-fit: cover;
       margin-left: 85px;
+      padding-right:10px;
     }
     .home-image {
       max-width: 100%;

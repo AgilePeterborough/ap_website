@@ -7,7 +7,7 @@ const Footer = (props) => {
         <div className="footer-max-width max-content-container">
           <div className="footer-container">
             <span className="footer-text Content-Light">
-              Agile Peterborough is a volunteer run organisatio
+              Agile Peterborough is a volunteer run organisation
             </span>
             <div className="footer-social-media">
               <span className="footer-text1">Follow us</span>
@@ -35,6 +35,8 @@ const Footer = (props) => {
             <div className="footer-container2">
               <span className="footer-link">Home</span>
               <span className="footer-link">About</span>
+              <span className="footer-link">Education</span>
+              <span className="footer-link">Meetup</span>
             </div>
           </div>
         </div>
