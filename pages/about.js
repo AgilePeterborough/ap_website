@@ -17,40 +17,7 @@ const Home = (props) => {
         </Head>
         <Navbar></Navbar>
         <main className="home-main">
-          <Hero></Hero>
           
-          <div className="home-section-three section-container">
-            <div className="home-max-width1 max-content-container">
-              <h2 className="home-text04">
-              Promoting technology, best practice and inclusion throughout Peterborough
-              </h2>
-              <div className="home-cards-container">
-                <FeatureCard 
-                  image_src="/playground_assets/beer-tap.png"
-                  url="https://www.meetup.com/agile-peterborough/"
-                  internal="false"
-                ></FeatureCard>
-                <FeatureCard
-                  text="Code clubs, workshops, presentations and talks in schools and Universities"
-                  text1="See how &gt;"
-                  heading="Supporting Education"
-                  image_src="/playground_assets/mortarboard.png"
-                ></FeatureCard>
-                <FeatureCard
-                  text="We run learning hand-on learning workshops, coding as you go."
-                  text1="Learn more &gt;"
-                  heading="Hands on"
-                  image_src="/playground_assets/programming.png"
-                ></FeatureCard>
-                <FeatureCard
-                  text="All our talks and events are run by members of the commity "
-                  text1="Learn more &gt;"
-                  heading="Peer led"
-                  image_src="/playground_assets/online-community.png"
-                ></FeatureCard>
-              </div>
-            </div>
-          </div>
           <div className="home-section-two section-container">
           <Twopanel
              text="First run in 2013 Agile Peterborough is a community focused

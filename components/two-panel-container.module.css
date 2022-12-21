@@ -1,0 +1,119 @@
+
+    .twopanel_maxwidth {
+      padding-top: var(--dl-space-space-fourunits);
+      flex-direction: row;
+     
+    }
+
+    .twopanel-content-container1 {
+      flex: 1;
+      display: flex;
+      max-width: 446px;
+      align-items: flex-start;
+      flex-direction: column;
+      
+    }
+    .max-content-container {
+        width: 100%;
+        display: flex;
+        position: relative;
+        max-width: var(--dl-size-size-maxwidth);
+        align-items: center;
+        padding-left: var(--dl-space-space-oneandhalfunits);
+        padding-right: var(--dl-space-space-oneandhalfunits);
+      }
+      .Content-Light {
+        font-size: 16px;
+        font-style: normal;
+        font-family: Lexend;
+        font-weight: 300;
+        line-height: 1.75;
+        text-transform: none;
+        text-decoration: none;
+      }
+    .home-content-container1 {
+      margin-bottom: 42px;
+      padding-right: 0px;
+    }
+    .home-image-container {
+      flex: 1;
+      margin-left: var(--dl-space-space-oneandhalfunits);
+    }
+    .twopanel-header {
+      font-size: 42px;
+      margin-bottom: 24px;
+      width: 100%;
+      color: var(--dl-color-grays-dark100);
+    }
+
+    .twopanel-header-highlight {
+      color: var(--dl-color-backgrounds-primary);
+    }
+    .home-text08 {
+      color: var(--dl-color-grays-gray100);
+    }
+
+    @media (max-width: 767px) {
+
+      .twopanel_maxwidth {
+        flex-direction: column-reverse;
+      }
+
+      .home-content-container1 {
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 479px) {
+      .twopanel_maxwidth {
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+
+    .home-image-container1 {
+      flex: 1;
+      align-self: stretch;
+      margin-right: var(--dl-space-space-oneandhalfunits);
+    }
+
+    .home-image {
+      width: 566px;
+      object-fit: cover;
+      margin-left: 85px;
+    }
+    .home-image {
+      max-width: 100%;
+      margin-left: 0px;
+    }
+    
+    @media (max-width: 767px) {
+      .home-max-width3 {
+        width: auto;
+        flex-direction: column;
+      }
+      .home-image-container1 {
+        width: 100%;
+        margin-right: 0px;
+      }
+      .home-image {
+        margin-bottom: var(--dl-space-space-twounits);
+      }
+    }
+
+    @media (max-width: 479px) {
+      .home-max-width3 {
+        width: auto;
+      }
+      .home-image-container1 {
+        width: auto;
+      }
+      .home-image {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: var(--dl-space-space-halfunit);
+      }
+      
+    }
+  

@@ -13,7 +13,7 @@ const FeatureCard = (props) => {
         />
         <h4 className="feature-card-text Heading4">{props.heading}</h4>
         <span className="feature-card-text1 Content-Light">{props.text}</span>
-        <span className="feature-card-text2">{props.text1}</span>
+        <span className="feature-card-text2"><a target={props.internal? '_blank' : '_self' } href={props.url || '/'}>{props.text1}</a></span>
       </div>
       <style jsx>
         {`
