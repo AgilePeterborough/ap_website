@@ -57,7 +57,7 @@ const Hero = (props) => {
   align-items: center;
   padding:0px;
   background-size: cover;
-  background-image: url("/playground_assets/highres_226269472-1200w.jpeg");
+  background-image: url(/playground_assets/highres_226269472-1200w.jpeg);
   background-color: rgba(10,10,10,0.3);
 }
 

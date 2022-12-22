@@ -63,30 +63,29 @@ const Home = (props) => {
              imageRight="true"
           ></Twopanel>
           <Twopanel
-             text="We have over 10 years experience supporting schools and
-             universities, through talks, demonstrations, workshops, 
-             events and placements. Our members have run code clubs in primary
-             schools, pairing sessions with under-graduates, helped organise hackathons, interviews and open days and we
+             text="Learning is at the heart of what we all do and we've been supporting schools and
+             universities for over 10 years through talks, demonstrations, workshops, 
+             events and work placements. Our members have run code clubs in primary
+             schools, pairing sessions with under-graduates, helped organise hackathons, mock interviews and open days and we
              continue to work closely with academic organisations
-             across the region. We are proud to count some of the talented youngsters of
+             across the region. We've been around long enough to count some of the talented youngsters of
              our early schools engagement as now adult engineers and
              community contributors at Agile Peterborough"
              title1="Supporting"
              title2="Education"
-             image_src="/playground_assets/_126734889_tv078804345-1200w.jpg"
+             image_src="/playground_assets/aru.jpg"
           ></Twopanel>
           <Twopanel
-             text="Agile on Tap is a event run from the back room of the
+             text="The Brewery Tap is one of Peterborough's finest public houses. Agile on Tap is a event run from the back room of the
              Brewery Tap in Peterborough.  A boutique tech event that
-             over the years has hosted some of the worlds premier
-             speakers. Topics can range from technical
+             over the years has hosted some of the tech worlds most reknowned speakers. Topics can range from technical
              &apos;how-tos&apos; and case studies to Product Strategy and
              Team leadership with formats varying from talks to open
              discussions and fishbowl discussions."
              title1="Agile-on-"
              title2="Tap"
              imageRight="true"
-             image_src="/playground_assets/highres_226269472-1200w.jpeg"
+             image_src="/playground_assets/speaker1.jpg"
           ></Twopanel>
           
 
