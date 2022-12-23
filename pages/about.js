@@ -6,6 +6,7 @@ import FeatureCard from '../components/feature-card'
 import GridCard from '../components/grid-card'
 import Footer from '../components/footer'
 import Twopanel from '../components/two-panel-container'
+import Hero from '../components/hero'
 const Home = (props) => {
   return (
     <>
@@ -16,7 +17,10 @@ const Home = (props) => {
         </Head>
         <Navbar></Navbar>
         <main className="home-main">
-       
+       <Hero
+       imageURL='jlspeaker2.jpg'
+       header='Supporting the tech community of Peterborough'
+       subtext=''></Hero>
           <div className="home-section-two section-container">
           <Twopanel
              text="First run in 2013 Agile Peterborough is a community focused
@@ -28,7 +32,7 @@ const Home = (props) => {
           ></Twopanel>
           <Twopanel
              text="We know that technology moves pretty fast, its tough to keep up. Through engaging across generations we hope to give support to educators and students to help turn magic into know-how."
-             text2="We have been aorund long enough to know that small amounts of well executed, high quality professional enagement can really accelerate autodidactic children. To that aim we have helped and continue to to find and support engineers interested in running code clubs, hackathons, open days and lecutres"
+             text2=""
              title1="Engaging with&nbsp;"
              title2="Community"
              image_src="/playground_assets/clarkeQuote.jpeg"

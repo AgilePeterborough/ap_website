@@ -1,5 +1,6 @@
 
     .twopanel_maxwidth {
+      padding-top: var(--dl-space-space-halfunit);
       flex-direction: row;
      
     }
@@ -35,7 +36,7 @@
     }
     .home-image-container {
       flex: 1;
-      margin-left: var(--dl-space-space-oneandhalfunits);
+      
     }
     .twopanel-header {
       font-size: 42px;

@@ -7,11 +7,12 @@ const Hero = (props) => {
             <div className="home-max-width max-content-container">
               <div className="home-content-container">
                 <h1 className="herobgClear">
-                A growing network of motivated technology businesses and
-                professionals around Peterborough 
+                {props.header} 
                 </h1>
+              {props.subtext && 
                 <div className="home-features-container">
                   <div className="hero-feature">
+                    
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="hero-icon"
@@ -45,90 +46,93 @@ const Hero = (props) => {
                     </span>
                   </div>
                 </div>
+                }
+
+
               </div>
             </div>
           </div>
         </div>
           <style>
-{`
+          {`
 
-.herobg {
-  align-self: center;
-  align-items: center;
-  padding:0px;
-  background-size: cover;
-  background-image: url(/playground_assets/highres_226269472-1200w.jpeg);
-  background-color: rgba(10,10,10,0.3);
-}
+          .herobg {
+            align-self: center;
+            align-items: center;
+            padding:0px;
+            background-size: cover;
+            background-image: url(/playground_assets/`+props.imageURL+`);
+            background-color: rgba(10,10,10,0.3);
+          }
 
-.herobgClear {
-  color: var(--dl-color-grays-white100);
-}
+          .herobgClear {
+            color: var(--dl-color-grays-white100);
+          }
 
-.herobgBlur {
-  background-color: rgba(10,10,10,0.3);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(7px);
-  height: 100%;
-}
-
-
-
-.home-max-width {
-  align-self: center;
-  align-items: stretch;
-}
+          .herobgBlur {
+            background-color: rgba(10,10,10,0.3);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(7px);
+            height: 100%;
+          }
 
 
 
+          .home-max-width {
+            align-self: center;
+            align-items: stretch;
+          }
 
-.home-content-container {
-  flex: 1;
-  width: 100%;
-  height: 242px;
-  display: flex;
-  min-width: 50%;
-  align-items: flex-start;
-  padding-right: var(--dl-space-space-twounits);
-  flex-direction: column;
-  justify-content: center;
-}
-.home-features-container {
-  flex: 0 0 auto;
-  width: auto;
-  display: flex;
-  align-self: flex-end;
-  align-items: flex-start;
-  flex-direction: column;
-  padding-top:35px;
-}
-.hero-feature {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  flex-direction: row;
-}
-.hero-icon {
-  fill: #62bf77;
-  width: 17px;
-  height: 17px;
-  min-width: 17px;
-  margin-right: 12px;
-}
-.hero-sm-text {
-  color: var(--dl-color-grays-white100);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-}
-@media (max-width: 991px) {
-  .home-max-width {
-    flex-direction: column;
-  }
 
-`}
+
+
+          .home-content-container {
+            flex: 1;
+            width: 100%;
+            height: 242px;
+            display: flex;
+            min-width: 50%;
+            align-items: flex-start;
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-features-container {
+            flex: 0 0 auto;
+            width: auto;
+            display: flex;
+            align-self: flex-end;
+            align-items: flex-start;
+            flex-direction: column;
+            padding-top:35px;
+          }
+          .hero-feature {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-direction: row;
+          }
+          .hero-icon {
+            fill: #62bf77;
+            width: 17px;
+            height: 17px;
+            min-width: 17px;
+            margin-right: 12px;
+          }
+          .hero-sm-text {
+            color: var(--dl-color-grays-white100);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+          }
+          @media (max-width: 991px) {
+            .home-max-width {
+              flex-direction: column;
+            }
+
+          `}
           </style>
     </>
   )

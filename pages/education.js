@@ -47,11 +47,11 @@ const Home = (props) => {
               </div>
           <div className="home-section-two section-container">
           <Twopanel
-             text="For over 10 years members of our community and local business have maintained a steady flow of code clubs in primary schools 
-             across the city. Engineers "
+             text="For over 10 years members of our community supported by the businesses they work for have helped to run code clubs in primary schools 
+             across the city. We also supported teachers with coding workshops, guidance and classroom visits, "
              title1="Code Clubs"
              title2=""
-             image_src="/playground_assets/herologo-1200w.png"
+             image_src="/playground_assets/kids2.jpg"
              imageRight="true"
           ></Twopanel>
           <Twopanel
@@ -65,33 +65,25 @@ const Home = (props) => {
              community contributors at Agile Peterborough"
              title1="Supporting&nbsp;"
              title2="Education"
-             image_src="/playground_assets/_126734889_tv078804345-1200w.jpg"
+             image_src="/playground_assets/aru.jpg"
           ></Twopanel>
           <Twopanel
-             text="Agile on Tap is a event run from the back room of the
-             Brewery Tap in Peterborough.  A boutique tech event that
-             over the years has hosted some of the worlds premier
-             speakers. Topics can range from technical
-             &apos;how-tos&apos; and case studies to Product Strategy and
-             Team leadership with formats varying from talks to open
-             discussions and fishbowl discussions."
-             title1="Agile-on-"
-             title2="Tap"
+             text="Many of our members have mentored and coached junior members of staff, extending these skills to students allows businesses the
+             opportunity to advance their employees, whilst inspiring and supporting under-graduates as they progress through their programmes. 
+             Through our engagement programmes we have been able to help develop new modules for degree courses aligning them with current development techniques, 
+             create unique pairing opportunities where engineers code directly with students and help to inspire many of the students to go on to sucessful careers"
+             title1="Universities and"
+             title2="&nbsp;Students"
              imageRight="true"
-             image_src="/playground_assets/highres_226269472-1200w.jpeg"
+             image_src="/playground_assets/kids1.jpg"
           ></Twopanel>
            <Twopanel
-             text="We have over 10 years experience supporting schools and
-             universities, through talks, demonstrations, workshops, 
-             events and placements. Our members have run code clubs in primary
-             schools, pairing sessions with under-graduates, helped organise hackathons, interviews and open days and we
-             continue to work closely with academic organisations
-             across the region. We are proud to count some of the talented youngsters of
-             our early schools engagement as now adult engineers and
-             community contributors at Agile Peterborough"
-             title1="Supporting&nbsp;"
-             title2="Education"
-             image_src="/playground_assets/_126734889_tv078804345-1200w.jpg"
+             text="Our first cross company student placement saw us interview 20 students over a day of testing alongside BGL and ADP. At the end of the day we were able to
+             jointly offer 6 candidates summer-long placements. The programme ran for several years providing both companies with a number of graduates. All of the candidates went onto
+             further careers in the indsutry. A few of those graduates remain in place at their respective placements having learnt and progressed and been supported, a real testement to the great employers that took them on."
+             title1="Industrial&nbsp;"
+             title2="Placements"
+             image_src="/playground_assets/gdcr1.jpeg"
           ></Twopanel>
 
 

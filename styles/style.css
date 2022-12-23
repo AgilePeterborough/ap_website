@@ -146,7 +146,7 @@
   align-items: center;
   padding-top: var(--dl-space-space-fiveunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .slide-active {
   display: flex !important;

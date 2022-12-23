@@ -72,7 +72,7 @@ const FeatureCard = (props) => {
 }
 
 FeatureCard.defaultProps = {
-  text1: 'Get started >',
+  text1: 'Register >',
   text: 'An evening event of peer led talks and discussion around working in and with technology',
   heading: 'Agile-on-Tap',
   image_alt: 'image',

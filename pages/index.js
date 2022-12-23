@@ -17,7 +17,11 @@ const Home = (props) => {
         </Head>
         <Navbar></Navbar>
         <main className="home-main">
-          <Hero></Hero>
+          <Hero
+          imageURL="highres_226269472-1200w.jpeg"
+          header='A growing network of motivated technology businesses and professionals around Peterborough'
+          subtext='true'
+          ></Hero>
           
           <div className="home-section-three section-container">
             <div className="home-max-width1 max-content-container">
@@ -37,7 +41,7 @@ const Home = (props) => {
                   image_src="/playground_assets/programming.png"
                 ></FeatureCard>
                 <FeatureCard
-                  text="All our talks and events are run by members of the commity "
+                  text="All of our talks and events are run by members of the community, we run events where possible based on demand "
                   text1="Learn more &gt;"
                   heading="Peer led"
                   image_src="/playground_assets/online-community.png"
@@ -63,9 +67,8 @@ const Home = (props) => {
              imageRight="true"
           ></Twopanel>
           <Twopanel
-             text="Learning is at the heart of what we all do and we've been supporting schools and
-             universities for over 10 years through talks, demonstrations, workshops, 
-             events and work placements. Our members have run code clubs in primary
+             text="Learning is at the heart of what we do and we've been supporting schools and
+             universities for over 10 years. Our members have run code clubs in primary
              schools, pairing sessions with under-graduates, helped organise hackathons, mock interviews and open days and we
              continue to work closely with academic organisations
              across the region. We've been around long enough to count some of the talented youngsters of
@@ -76,9 +79,9 @@ const Home = (props) => {
              image_src="/playground_assets/aru.jpg"
           ></Twopanel>
           <Twopanel
-             text="The Brewery Tap is one of Peterborough's finest public houses. Agile on Tap is a event run from the back room of the
-             Brewery Tap in Peterborough.  A boutique tech event that
-             over the years has hosted some of the tech worlds most reknowned speakers. Topics can range from technical
+             text="The Brewery Tap is one of Peterborough's finest public houses. Agile on Tap is a event that has been run from the back room of the
+             Brewery Tap since 2013. A boutique tech event that
+              has hosted some of the tech world's most reknowned speakers. Topics can range from technical
              &apos;how-tos&apos; and case studies to Product Strategy and
              Team leadership with formats varying from talks to open
              discussions and fishbowl discussions."
@@ -87,13 +90,6 @@ const Home = (props) => {
              imageRight="true"
              image_src="/playground_assets/speaker1.jpg"
           ></Twopanel>
-          
-
-
-            
-
-
-
             
           </div>
           <div className="section-container">
