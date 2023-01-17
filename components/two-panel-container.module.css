@@ -19,7 +19,7 @@
         max-width: var(--dl-size-size-maxwidth);
         padding-left: var(--dl-space-space-oneandhalfunits);
         padding-right:var(--dl-space-space-oneandhalfunits);
-        
+        padding-top: var(--dl-space-space-oneandhalfunits);
       }
       .Content-Light {
         font-size: 16px;

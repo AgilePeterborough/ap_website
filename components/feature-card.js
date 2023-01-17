@@ -73,7 +73,7 @@ const FeatureCard = (props) => {
 
 FeatureCard.defaultProps = {
   text1: 'Register >',
-  text: 'An evening event of peer led talks and discussion around working in and with technology',
+  text: 'The UK\'s finest free boutique tech event. An evening of discussion and talks around working in and with technology.',
   heading: 'Agile-on-Tap',
   image_alt: 'image',
   image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',

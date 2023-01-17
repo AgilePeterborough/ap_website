@@ -13,20 +13,20 @@ const Home = (props) => {
       <div className="home-container">
         <Head>
           <title>Agile Peterborough</title>
-          <meta property="og:title" content="Agile Peterborough group homepage" />
+          <meta property="og:title" content="Agile Peterborough group homepage"/>
         </Head>
         <Navbar></Navbar>
         <main className="home-main">
           <Hero
           imageURL="highres_226269472-1200w.jpeg"
-          header='A growing network of motivated technology businesses and professionals around Peterborough'
+          header='A growing network of motivated technology businesses and professionals in Peterborough.'
           subtext='true'
           ></Hero>
           
           <div className="home-section-three section-container">
             <div className="home-max-width1 max-content-container">
               <h2 className="home-text04">
-              Promoting technology, best practice and inclusion throughout Peterborough
+              Promoting technology best practice and inclusivity throughout Peterborough
               </h2>
               <div className="home-cards-container">
                 <FeatureCard 
@@ -35,7 +35,7 @@ const Home = (props) => {
                   internal="false"
                 ></FeatureCard>
                 <FeatureCard
-                  text="We run learning hand-on learning workshops, coding in support of autodidacts."
+                  text="Hands-on workshops, learning in support of autodidacts."
                   text1="Learn more &gt;"
                   heading="Hands on"
                   image_src="/playground_assets/programming.png"
@@ -47,7 +47,7 @@ const Home = (props) => {
                   image_src="/playground_assets/online-community.png"
                 ></FeatureCard>
                 <FeatureCard
-                  text="Code clubs, workshops, presentations and talks in schools and Universities"
+                  text="Connecting proffessional engineers with education, through code clubs, presentations and talks in schools and Universities"
                   text1="See how &gt;"
                   heading="Supporting Education"
                   url="/education"
@@ -58,7 +58,7 @@ const Home = (props) => {
           </div>
           <div className="home-section-two section-container">
           <Twopanel
-             text="First run in 2013 Agile Peterborough is a community focused
+             text="First run in 2013 Agile Peterborough is a volunteer run community focused
              on building, accelerating and amplifying  the growth of
              technology capability in and around the city. We run learning events and support the development of engineers in the local area."
              title1="Peterborough&apos;s learning technology"

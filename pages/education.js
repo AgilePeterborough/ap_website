@@ -20,26 +20,26 @@ const Home = (props) => {
         <div className="home-cards-container">
                 <FeatureCard 
                   heading="Code Clubs"
-                  text="In various schools throughout Peterborough our members have run or supported code clubs "
+                  text="Our members have run or supported hundreds of coding club sessions throughout the local area."
                   image_src="/playground_assets/codeclub.png"
                   url="https://codeclub.org/en/volunteer"
                   internal="false"
                 ></FeatureCard>
                 <FeatureCard
-                  text="Our members visit schools to give engaging talks to students about working in tech."
+                  text="Connecting proffessionals with local schools looking to find out more about life working in tech."
                   text1=""
                   heading="Intro talks"
                   url="/education"
                   image_src="/playground_assets/female.png"
                 ></FeatureCard>
                 <FeatureCard
-                  text="We help to organise coding session between employers and students."
+                  text="Working to inspire students and focusing on skills we bring students and engineers together to learn over code."
                   text1=""
                   heading="Code Reviews"
                   image_src="/playground_assets/coworkers.png"
                 ></FeatureCard>
                 <FeatureCard
-                  text="We've helped to organise and match placements for passionate students with local businesses "
+                  text="Helping students gain work experiance with technology companies around the local area."
                   text1=""
                   heading="Industrial Placements"
                   image_src="/playground_assets/employee.png"
@@ -47,22 +47,18 @@ const Home = (props) => {
               </div>
           <div className="home-section-two section-container">
           <Twopanel
-             text="For over 10 years members of our community supported by the businesses they work for have helped to run code clubs in primary schools 
-             across the city. We also supported teachers with coding workshops, guidance and classroom visits, "
+             text="For over 10 years members of our community supported by the businesses they work for have helped to run hundreds of coding sessions in primary schools 
+             across the city. Our after school code clubs introduce children to cloud computing and development using modern languages and infrastructure."
              title1="Code Clubs"
              title2=""
              image_src="/playground_assets/kids2.jpg"
              imageRight="true"
           ></Twopanel>
           <Twopanel
-             text="We have over 10 years experience supporting schools and
-             universities, through talks, demonstrations, workshops, 
-             events and placements. Our members have run code clubs in primary
-             schools, pairing sessions with under-graduates, helped organise hackathons, interviews and open days and we
-             continue to work closely with academic organisations
-             across the region. We are proud to count some of the talented youngsters of
-             our early schools engagement as now adult engineers and
-             community contributors at Agile Peterborough"
+             text="For over 10 years we have worked alongside schools and
+             universities to promote modern technology best practice and our love of working in technology. Through talks, demonstrations, workshops, 
+             events and placements we hope to inspire and engage the engineers of tomorrow. We are proud to count some of the talented youngsters of
+             our early schools engagement as now adult community contributors at Agile Peterborough."
              title1="Supporting&nbsp;"
              title2="Education"
              image_src="/playground_assets/aru.jpg"
@@ -70,17 +66,16 @@ const Home = (props) => {
           <Twopanel
              text="Many of our members have mentored and coached junior members of staff, extending these skills to students allows businesses the
              opportunity to advance their employees, whilst inspiring and supporting under-graduates as they progress through their programmes. 
-             Through our engagement programmes we have been able to help develop new modules for degree courses aligning them with current development techniques, 
-             create unique pairing opportunities where engineers code directly with students and help to inspire many of the students to go on to sucessful careers"
+             Through our engagement programmes we have been able to help develop new modules for degree courses aligning them with current development techniques and 
+             creating unique pairing opportunities where engineers code directly with students, helping to inspire many of the students to go on to sucessful careers in the industry."
              title1="Universities and"
              title2="&nbsp;Students"
              imageRight="true"
              image_src="/playground_assets/kids1.jpg"
           ></Twopanel>
            <Twopanel
-             text="Our first cross company student placement saw us interview 20 students over a day of testing alongside BGL and ADP. At the end of the day we were able to
-             jointly offer 6 candidates summer-long placements. The programme ran for several years providing both companies with a number of graduates. All of the candidates went onto
-             further careers in the indsutry. A few of those graduates remain in place at their respective placements having learnt and progressed and been supported, a real testement to the great employers that took them on."
+             text="Our first cross company student placement interview day saw us put 20 students through a rigourous selection process leading to 6 candidates offers for summer-long placements. All of the candidates went onto
+             further careers in the industry. Some of those graduates remain at their respective placements and have progressed onwards to senior roles, a real testement to the great employers that took them on."
              title1="Industrial&nbsp;"
              title2="Placements"
              image_src="/playground_assets/gdcr1.jpeg"
